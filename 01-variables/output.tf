@@ -10,3 +10,8 @@ output "sample_list2"{
 output "sample_list3"{
   value=var.sample_list[2]
 }
+
+output "sample_dict"{
+  value=var.sample_dict["boolean"]
+
+}
